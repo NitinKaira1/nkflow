@@ -1,6 +1,6 @@
-# Pyflow
+# nkflow
 
-Pyflow is a Python library that enables users to generate code using OpenAI GPT models, save the generated code to files, and optionally execute Python scripts or open HTML files in a browser. It supports session-based memory for multi-step tasks, making it ideal for iterative code generation workflows.
+nkflow is a Python library that enables users to generate code using OpenAI GPT models, save the generated code to files, and optionally execute Python scripts or open HTML files in a browser. It supports session-based memory for multi-step tasks, making it ideal for iterative code generation workflows.
 
 ## Features
 
@@ -14,15 +14,16 @@ Pyflow is a Python library that enables users to generate code using OpenAI GPT 
 
 ```bash
 pip install langchain langchain-openai
+pip install nkflow
 # Add yourlib installation if published, e.g.:
-# pip install yourlib
+# pip install nkflow
 ```
 
 ## Usage
 
 ```python
 from langchain_openai import ChatOpenAI
-from yourlib import run
+from nkflow import run
 
 openai_model = ChatOpenAI(model="gpt-4o-mini", api_key="XYZ")
 run("Make me a todo-list website", "todo.html", False, llm=openai_model)
