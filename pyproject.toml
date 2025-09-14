@@ -1,0 +1,17 @@
+[project]
+name = "nkflow"
+version = "0.1.0"
+license = { file = "LICENSE" }
+description = "Generate, save, and optionally run AI-generated code using LangChain LLMs."
+authors = [{name="Nitin Kaira", email="nkaira784@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain",
+    "langchain-google-genai",
+    "langchain-openai"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

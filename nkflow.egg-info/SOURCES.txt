@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nkflow/__init__.py
+nkflow/nkflow.py
+nkflow.egg-info/PKG-INFO
+nkflow.egg-info/SOURCES.txt
+nkflow.egg-info/dependency_links.txt
+nkflow.egg-info/requires.txt
+nkflow.egg-info/top_level.txt
