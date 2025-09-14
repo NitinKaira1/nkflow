@@ -1,0 +1,33 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Test / coverage / tooling
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
