@@ -1,6 +1,5 @@
 import re
 import subprocess
-import webbrowser
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_community.chat_message_histories import ChatMessageHistory
@@ -63,6 +62,3 @@ def run(task: str, filename: str, auto_run: bool, llm, session_id="single_run"):
         if filename.endswith(".py"):
             print(f"🚀 Running {filename}...\n")
             subprocess.run(["python", filename], check=False)
-        elif filename.endswith(".html"):
-            print(f"🌐 Opening {filename} in browser...")
-            webbrowser.open_new_tab(filename)
